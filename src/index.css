@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Figtree', sans-serif;
+
+  --color-primary: #003be2;
+  --color-accent: #d4fb20;
+  --color-dark: #111111;
+  --color-muted: #6b6b6b;
+  --color-soft: #f2f2f2;
+}
+
+body {
+  background: #fff;
+  font-family: var(--font-body);
+  color: var(--color-dark);
+}
+
+/* blue background with the thin grid lines */
+.grid-bg {
+  background-color: #003be2;
+  background-image: linear-gradient(#1f53e6 2px, transparent 2px), linear-gradient(90deg, #1f53e6 2px, transparent 2px);
+  background-size: 120px 120px;
+  background-position: 0 -2px;
+}
